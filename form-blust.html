@@ -1,0 +1,112 @@
+<style type="text/css">
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+  .carrito *{
+  font-family:"Roboto";
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  input{
+    border: 0;
+    border-bottom: 1px solid rgb(102, 102, 102);
+  }
+  select{
+    border: 0;
+    border-bottom: 1px solid rgb(102, 102, 102);
+  }
+  button{
+    background:black;
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+  }
+  .talla{
+    border: solid 1,5px rgb(102, 102, 102);
+    background:none;
+    border-radius: 3px;
+  }
+  .titulo{
+    font-family:"Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 7px;
+  }
+
+</style>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<form action="mailto:thebluststore@gmail.com" method="post" enctype="text/plain">
+<section class="carrito">
+    <ul>
+      <p class="titulo">Datos personales</p>
+      <li>
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+  </li>
+    <li>
+    <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+  </li>
+  <li>
+    <input type="email" name="correo" id="correo" placeholder="Correo electrónico" required>
+</li>
+<br>
+<br>
+<p class="titulo">Datos domiciliarios</p>
+    <li>
+      <input type="text" name="calle" id="calle" placeholder="Calle" >
+    </li>
+    <li>
+      <input type="text" name="población" id="población" placeholder="Población" > 
+    </li>
+    <li>
+      <input type="text" name="cp" id="cp" placeholder="Código Postal" >
+    </li>
+    <br>
+<br>
+    <p class="titulo">Datos de la prenda</p>
+<li>
+    <input  type="text" name="prenda" id="prenda" placeholder="Nombre en la web" >
+  </li>
+  <li>
+    <input  type="text" name="color-prenda" id="color-prenda" placeholder="Color de la prenda" >
+  </li>
+  <li>
+    <select name="color-diseño" class="color-diseño" >
+      <option selected value="0">Color diseño</option>
+          <option value="1">Blanco</option> 
+          <option value="2">Negro</option> 
+      </optgroup> 
+   </select>
+  </li>
+  <li>
+    <select name="talla" class="talla" >
+      <option selected value="0">Talla</option>
+          <option value="1">XS</option> 
+          <option value="2">S</option> 
+          <option value="3">M</option> 
+          <option value="3">L</option> 
+          <option value="3">XL</option> 
+          <option value="3">XXL</option> 
+      </optgroup> 
+   </select>
+   <br>
+   <br>
+  </li>
+  <p class="titulo">Cuestiones</p>
+  <!--<li>
+    <input  type="text" name="color-prenda" id="color-prenda" placeholder="Escríbenos tus dudas">
+  </li>-->
+  <li>
+    <textarea name="comentarios" rows="3" cols="20" placeholder="Escríbenos tus dudas"></textarea>  </li>
+  <li>
+    <br>
+    <br>
+    <button type="submit">Realizar pedido</button>
+  </li>
+  </ul>
+</section>
+</form>
