@@ -1,1 +1,1 @@
-# BlusStore
+# BlustStore
