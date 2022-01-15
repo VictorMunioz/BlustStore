@@ -1,0 +1,17 @@
+
+/* -------------------     CAMISETAS   ------------------------- */
+
+.tarjeta-camis{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.camis{
+    width: 200px;
+    height: auto;
+}
+.tarjeta-camis p{
+    text-align: center;
+}
